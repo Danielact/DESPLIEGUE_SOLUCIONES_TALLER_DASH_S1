@@ -21,7 +21,7 @@ app.config.suppress_callback_exceptions = True
 
 # Load data from csv
 def load_data():
-    url = "/workspaces/MIAD_DESPLIEGUE_DCT/datos_energia.csv"
+    url = "datos_energia.csv"
     # Cargar el archivo CSV en un DataFrame
     data_carga = pd.read_csv(url)
     # Convertir la columna de fecha a formato datetime y establecerla como índice
